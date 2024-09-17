@@ -1,0 +1,129 @@
+ .head{
+    padding-bottom: 50px;
+    box-sizing: border-box;
+   
+} 
+
+
+
+
+#head h1{
+ text-align: center;
+ color:whitesmoke;
+font-size: 2rem;
+padding: 0.3rem;
+
+}
+
+.box{
+    display: flex;
+ 
+    flex-direction: column;
+ 
+   height: auto ;
+   
+    margin-top: 20px;
+margin-left: 50px;
+margin-right: 50px;
+
+font-size: 1rem;
+
+ border: 2px solid black;
+
+
+}
+
+#todo-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    width: 100%; 
+}
+
+#todo-list li {
+    padding: 10px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+    .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+
+     
+        .checkbox-container input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px; 
+        }
+  
+        .checkbox-container span {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        li:hover {
+            background-color: #e0e0e0;
+        }
+  .image{
+
+    width:100%;
+    display: block;
+    height: 400px;  
+    filter: brightness(0.6); 
+    object-fit: cover;
+  }
+
+  #home{
+margin-right:0;
+margin-left: 0;
+padding-left:0;
+
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%;                           
+    left: 50%;                          
+    transform: translate(-50%, -50%);    
+    color: white;                       
+    text-align: center;                
+    font-size: .2rem;                   
+    font-family: Arial, sans-serif;
+    padding: 0 10px;                     
+  }
+  .overlay-text button {
+    font-size: .9rem;                  
+    padding: 10px 20px;                 
+    color: white;                        
+    background-color: #007bff;          
+    border: none;                       
+    border-radius: 5px;                 
+    cursor: pointer;                      
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .overlay-text {
+      font-size: 5vw;                   
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .overlay-text {
+      font-size: 6vw;                    
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .overlay-text {
+      font-size: .1;            
+    }
+  }
+
+
+
+
+
+  
+  
+ 
